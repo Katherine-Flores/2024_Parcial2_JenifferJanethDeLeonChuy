@@ -1,0 +1,3 @@
+C:/Users/Kathe/CLionProjects/2024_parcial2_JenifferJanethDeleonChuy/cmake-build-debug/CMakeFiles/2024_parcial2_JenifferJanethDeleonChuy.dir
+C:/Users/Kathe/CLionProjects/2024_parcial2_JenifferJanethDeleonChuy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kathe/CLionProjects/2024_parcial2_JenifferJanethDeleonChuy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
