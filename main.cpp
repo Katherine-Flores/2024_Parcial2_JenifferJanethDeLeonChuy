@@ -20,12 +20,14 @@ void crearArchivos(int cantidad, const  fs::path& directory  )  { //Funcion de c
             filePath = directory / "impar" / ("file" + std::to_string(i) + ".txt"); // si es impar se almacena en el directorio impar
         }
         std::ofstream file(filePath); //Se crea el archivo
+            for (int j = 0; j < i; ++j) { // lo de crear las lineas por el numero del archivo
+                file << "Línea " << j + 1 << " del archivo " << i << std::endl;
+            }
         file.close(); // Cerramos el archivo después de crearlo
     }
 
     std::cout << "Archivos creados correctamente.\n";
 }
-
 int main() {
     int cantidad;
     std::cout << "Ingrese la cantidad de archivos que quiere crear: ";
